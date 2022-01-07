@@ -22,7 +22,6 @@ function Banner_1() {
             <span className="service-item-3">LIVE MUSIC</span>
             <span className="service-item">FOOD</span>
             <span className="service-item-3">DRINKS</span>
-            <span className="service-item service-item-3">DRINKS</span>
           </div>
         </div>
         <div className="Banner_1-title-age">
