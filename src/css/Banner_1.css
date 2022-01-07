@@ -12,7 +12,6 @@
   position: fixed;
   color: hsl(219, 79%, 66%);
   width: 800px;
-  min-width: 800px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -95,4 +94,18 @@
   width: 75%;
   z-index: 10;
   margin-left: 20px;
+}
+
+.service-item {
+  display: inline-block;
+}
+
+.service-item:not(:last-child) {
+  padding-right: 1rem;
+  margin-right: 1rem;
+  border-right: 1px solid #000;
+}
+
+.service-item + .service-item-3 {
+  background-color: red;
 }
