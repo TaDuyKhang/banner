@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section-1 {
+  position: relative;
+  color: whitesmoke;
+  text-align: left;
+  height: 700px;
+  overflow: hidden;
+  background-image: url("../airpodslistenwatchhero22.jpg");
+
+  img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+  }
+  p {
+    position: relative;
+    z-index: 2;
+  }
+  .section-1_textBox {
+    // position: relative;
+    margin-left: 80px;
+    margin-top: 50px;
+    width: 560px;
+    display: inline-block;
+    position: absolute;
+    bottom: 30px;
+    .section-1_title {
+      position: relative;
+      //   display: inline;
+      z-index: 3;
+      span {
+        position: relative;
+        font-size: 80px;
+        z-index: 3;
+        // display: inline;
+      }
+      .section-1_textBox-color {
+        width: 39%;
+        height: 90px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: yellow;
+        z-index: 0;
+      }
+      .section-1_subText {
+        font-size: 20px;
+        width: 55%;
+      }
+    }
+  }
+}
+
+@media only screen and(max-width: 650px) {
+  .section-1 {
+    color: red;
+    .section-1_textBox {
+      width: 500px;
+      .section-1_title {
+        position: relative;
+        //   display: inline;
+        z-index: 3;
+        span {
+          position: relative;
+          font-size: 80px;
+          z-index: 3;
+          // display: inline;
+        }
+        .section-1_textBox-color {
+          width: 27%;
+          height: 218px;
+          position: absolute;
+          right: 147px;
+          top: 0;
+          background-color: yellow;
+          z-index: 0;
+        }
+        .section-1_subText {
+          font-size: 20px;
+          width: 55%;
+        }
+      }
+    }
+  }
+}
+
+.section-2 {
+  text-align: right;
+  padding: 70px;
+  background-color: #343138;
+  color: white;
+  height: 200px;
+  .section-2_textBox {
+    width: 600px;
+    float: right;
+    // display: flex;
+    .section-2_bigText {
+      font-size: 40px;
+    }
+  }
+  // .section-2_smallText{
+
+  // }
+}
+@media only screen and(max-width: 650px) {
+  .section-2 {
+    text-align: center;
+    min-height: 250px;
+    .section-2_textBox {
+      width: 100%;
+      min-width: 450px;
+    }
+  }
+}
+
+.section-3 {
+  background-image: url("../57d41f4d077dcc3d018b4d7575056311.jpg");
+  height: 500px;
+  display: flex;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .section-3_textBox {
+    font-size: 50px;
+    margin: 50px;
+    color: white;
+  }
+}
+
+.section-4 {
+  padding-top: 30px;
+  background-color: #111111;
+  color: white;
+  .section-4_box {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+
+    .section-4_boxItem {
+      flex: 25%;
+
+      img :last-child {
+        width: 100%;
+      }
+      // padding: 20px;
+
+      .section-4_boxItem_text {
+        // border: 1px solid #343138;
+        background-color: #343138;
+        padding: 40px;
+      }
+      .section-4_boxItem_text :last-child {
+        background-color: #facd3d;
+      }
+
+      .section-4_boxItem_img {
+        img {
+          padding: 20px;
+        }
+        .img1 {
+          width: 80%;
+        }
+        .img2 {
+          width: 80%;
+        }
+        .img3 {
+          width: 80%;
+        }
+        .img4 {
+          width: 80%;
+          padding: 0;
+          width: 100%;
+        }
+        // .img {
+        //   width: 100%;
+        // }
+      }
+
+      p {
+        font-size: 30px;
+      }
+      button {
+        color: white;
+        background-color: #111111;
+        padding: 10px 35px;
+        margin-top: 20px;
+      }
+    }
+  }
+  @media only screen and(max-width: 800px) {
+    .section-4_box {
+      margin: 0 auto;
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      .section-4_boxItem {
+        flex: 85%;
+      }
+    }
+  }
+}
+
+.section-5 {
+  height: 500px;
+  background-image: url(../airpodsinearmikah.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  .textBox {
+    width: 60%;
+    // bottom: 0;
+    font-size: 50px;
+    color: white;
+    padding: 50px;
+  }
+  @media only screen and(max-width: 800px) {
+    .textBox {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+.section-6 {
+  padding-bottom: 80px;
+  padding-top: 30px;
+  background-color: #111111;
+  .section-6_Box {
+    margin: 0 auto;
+    width: 90%;
+    .section-6_Box_left {
+      grid-area: header;
+      background-color: #343138;
+      color: white;
+      text-align: left;
+      // width: 50%;
+      p {
+        font-size: 40px;
+        width: 70%;
+      }
+      ul {
+        padding: 35px;
+        li {
+          margin: 25px;
+        }
+      }
+      button {
+        background-color: #343138;
+        color: white;
+        border-color: #111111;
+        padding: 15px 30px;
+      }
+    }
+    .section-6_Box_right_top {
+      grid-area: menu;
+    }
+    .section-6_Box_right_bottom_1 {
+      color: white;
+      vertical-align: middle;
+      grid-area: right;
+    }
+    .section-6_Box_right_bottom_2 {
+      grid-area: left;
+      img {
+        width: 100%;
+      }
+    }
+
+    display: grid;
+    grid-template-areas:
+      "header header menu menu "
+      "header header right left";
+    grid-gap: 20px;
+    img {
+      width: 100%;
+    }
+  }
+  @media only screen and(max-width: 800px) {
+    .section-6_Box {
+      grid-template-areas:
+        "header header header header "
+        "menu menu menu menu"
+        "right right left left";
+    }
+  }
+}
+
+.section-7 {
+  background-color: #facd3d;
+  color: white;
+  padding-top: 30px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  .section-7_Box {
+    width: 60%;
+    margin-left: 6%;
+    h1 {
+      padding-bottom: 20px;
+    }
+  }
+}
+@media only screen and(max-width: 800px) {
+  .section-7 {
+    text-align: center;
+    .section-7_Box {
+      width: 100%;
+    }
+  }
+}
